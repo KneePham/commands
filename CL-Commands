@@ -1,0 +1,11 @@
+
+/***
+Varibles
+$name = Give tar file a name
+$directory = Targeted Directory
+
+Description
+Tar a directory without .git being included
+***/
+
+tar -zcv --exclude='.git' --exclude='.gitignore' -f ${name}.tar.gz ${directory}
