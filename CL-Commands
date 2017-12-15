@@ -19,3 +19,8 @@ Moving files at current computer to another computer
 scp ${file_path} ${login}@IP:${file_path_server}
 
 eg. scp doge.txt nghi@127.0.0.1:/var/www/
+
+
+
+MYSQL
+GRANT ALL PRIVILEGES ON USERNAME.* To USERNAME@localhost IDENTIFIED BY 'password';
