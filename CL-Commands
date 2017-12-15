@@ -24,3 +24,7 @@ eg. scp doge.txt nghi@127.0.0.1:/var/www/
 
 MYSQL
 GRANT ALL PRIVILEGES ON USERNAME.* To USERNAME@localhost IDENTIFIED BY 'password';
+
+Wordpress Permission
+chmod 755 655
+sudo chown -R www-data:www-data /var/www
