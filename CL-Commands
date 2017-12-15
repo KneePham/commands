@@ -15,5 +15,7 @@ a2endsite
 a2dissite
 sudo service apache2 reload
 
+Moving files at current computer to another computer
+scp ${file_path} ${login}@IP:${file_path_server}
 
-scp 
+eg. scp doge.txt nghi@127.0.0.1:/var/www/
