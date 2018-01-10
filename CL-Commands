@@ -20,11 +20,23 @@ scp ${file_path} ${login}@IP:${file_path_server}
 
 eg. scp doge.txt nghi@127.0.0.1:/var/www/
 
-
-
 MYSQL
 GRANT ALL PRIVILEGES ON USERNAME.* To USERNAME@localhost IDENTIFIED BY 'password';
 
 Wordpress Permission
 chmod 755 655
 sudo chown -R www-data:www-data /var/www
+
+
+Wordpress Hacks...
+$user_id = wp_create_user ( 'user', 'pass', 'nghi@honestagency.com' );
+if( is_wp_error( $user_id ) ) 
+    var_dump( $user_id );
+else
+    wp_new_user_notification ( $user_id, null,'both' );
+
+$a = get_user_by('login','user');
+
+$u = new WP_User( $a->ID );
+$u->remove_role('subscriber'); //NEED to remove old role
+$u->add_role( 'administrator' );
