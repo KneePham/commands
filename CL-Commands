@@ -13,7 +13,7 @@ scp ${file_path} ${login}@${IP}:${file_path_server}
 eg. scp doge.txt nghi@127.0.0.1:/var/www/
 
 MYSQL
-GRANT ALL PRIVILEGES ON USERNAME.* To USERNAME@localhost IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON ${DBNAME}.* To USERNAME@localhost IDENTIFIED BY 'password';
 
 Wordpress Permission
 chmod 755 655
