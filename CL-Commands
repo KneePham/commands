@@ -38,3 +38,6 @@ git init
 echo "" > .gitignore
 git add .
 git commit -m "setup"
+
+git remote add origin git@bitbucket.org:{USER}/{REPONAME}.git
+git push -u origin master
