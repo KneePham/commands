@@ -32,3 +32,9 @@ $a = get_user_by('login','user');
 $u = new WP_User( $a->ID );
 $u->remove_role('subscriber'); //NEED to remove old role
 $u->add_role( 'administrator' );
+
+
+git init
+echo "" > .gitignore
+git add .
+git commit -m "setup"
