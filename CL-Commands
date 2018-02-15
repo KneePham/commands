@@ -45,3 +45,6 @@ git push -u origin master
 
 
 get_theme_file_path() - child theme instead of get_template directory()
+
+restart server
+/etc/init.d/apache2 restart
