@@ -1,8 +1,8 @@
 grep --include=\*.php -rnw ./ -e "singleEventSlug"
 
 tar -zcv --exclude='.git' --exclude='.gitignore' -f ${name}.tar.gz ${directory}
-tar -xcvf ${name}.tar.gz ${directory}
-tar -czvf ${name} 
+tar -ccvf ${name}.tar.gz ${directory}
+tar -xzvf ${name} 
 
 a2endsite
 a2dissite
