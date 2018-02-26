@@ -13,6 +13,8 @@ scp ${file_path} ${login}@${IP}:${file_path_server}
 
 eg. scp doge.txt nghi@127.0.0.1:/var/www/
 
+rsync -rPz --exclude node_modules ./ root@165.227.119.7:/var/www/fos2/wp-content/themes/fos/
+
 MYSQL
 GRANT ALL PRIVILEGES ON ${DBNAME}.* To USERNAME@localhost IDENTIFIED BY 'password';
 
