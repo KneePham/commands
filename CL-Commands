@@ -4,7 +4,7 @@ tar -zcv --exclude='.git' --exclude='.gitignore' -f ${name}.tar.gz ${directory}
 tar -zcvf ${name}.tar.gz ${directory}
 tar -xzvf ${name} 
 
-a2endsite
+a2ensite
 a2dissite
 sudo service apache2 reload
 
