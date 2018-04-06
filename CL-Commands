@@ -1,5 +1,7 @@
-sudo useradd -m npham
-usermod -aG sudo npham
+sudo useradd -m ${username} //add user with a directory
+usermod -aG sudo ${username} //add user with 
+
+sudo -i  //become root
 
 grep --include=\*.php -rnw ./ -e "singleEventSlug"
 
