@@ -24,7 +24,8 @@ MYSQL
 GRANT ALL PRIVILEGES ON ${DBNAME}.* To USERNAME@localhost IDENTIFIED BY 'password';
 
 Wordpress Permission
-chmod 755 655
+chmod 775/655
+755 - drwxrwxr-x
 sudo chown -R www-data:www-data /var/www
 
 
