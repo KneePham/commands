@@ -1,4 +1,5 @@
-sudo useradd -m -s ${which bash} -G sudo ${USERNAME}
+sudo useradd -m npham
+usermod -aG sudo npham
 
 grep --include=\*.php -rnw ./ -e "singleEventSlug"
 
