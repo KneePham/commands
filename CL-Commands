@@ -1,5 +1,8 @@
 sudo useradd -m ${username} //add user with a directory
 usermod -aG sudo ${username} //add user with 
+sudo adduser <username> www-data
+sudo chown -R www-data:www-data /var/www
+sudo chmod -R g+rwX /var/www
 
 sudo -i  //become root
 
