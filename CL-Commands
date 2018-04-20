@@ -60,6 +60,10 @@ get_theme_file_path() - child theme instead of get_template directory()
 restart server
 /etc/init.d/apache2 restart
 
+ssh-keygen -t rsa
+ssh-copy-id ${SERVERUSERNAME}@${IP ADDRESS}
+ssh-copy-id jayson@111.111.11.1
+
 http://astronautweb.co/snippet/font-awesome/
 .element:before {
     content: "\f000";
@@ -74,16 +78,4 @@ http://astronautweb.co/snippet/font-awesome/
     position: absolute;
     top: 10px;
     left: 0;
-}
 
-var polys = document.querySelectorAll('polygon,polyline');
-[].forEach.call(polys,convertPolyToPath);
-​
-function convertPolyToPath(poly){
-  var svgNS = poly.ownerSVGElement.namespaceURI;
-  var path = document.createElementNS(svgNS,'path');
-  var pathdata = 'M '+poly.getAttribute('points');
-  if (poly.tagName=='polygon') pathdata+='z';
-  path.setAttribute('d',pathdata);
-  poly.parentNode.replaceChild(path,poly);
-}
