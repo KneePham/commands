@@ -16,6 +16,9 @@ a2ensite
 a2dissite
 sudo service apache2 reload
 
+string replace (vim)
+:%s/${WORDTOREPLACE}/${NEWWORD}/g
+
 Moving files at current computer to another computer
 scp ${file_path} ${login}@${IP}:${file_path_server}
 
