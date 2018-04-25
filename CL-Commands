@@ -6,6 +6,9 @@ sudo chmod -R g+rwX /var/www
 
 sudo -i  //become root
 
+give group RWX
+sudo chmod g+rwxs mls/
+
 grep --include=\*.php -rnw ./ -e "singleEventSlug"
 
 tar -zcv --exclude='.git' --exclude='.gitignore' -f ${name}.tar.gz ${directory}
