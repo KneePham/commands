@@ -1,0 +1,48 @@
+$('.hasDatepicker').each(function(index){
+	if(index == 0)
+		$(this).val('12:00 PM');
+	if(index == 1)
+		$(this).val('5:00 PM');
+	if(index == 2)
+		$(this).val('10:00 AM');
+	if(index == 3)
+		$(this).val('6:00 PM');
+	if(index == 4)
+		$(this).val('10:00 AM');
+	if(index == 5)
+		$(this).val('6:00 PM');
+	if(index == 6)
+		$(this).val('10:00 AM');
+	if(index == 7)
+		$(this).val('6:00 PM');
+	if(index == 8)
+		$(this).val('10:00 AM');
+	if(index == 9)
+		$(this).val('9:00 PM');
+	if(index == 10)
+		$(this).val('10:00 AM');
+	if(index == 11)
+		$(this).val('9:00 PM');
+	if(index == 12)
+		$(this).val('10:00 AM');
+	if(index == 13)
+		$(this).val('6:00 PM');
+});
+
+$('.acf-row select').each(function(index){
+
+	if(index == 0)
+		$(this).prop('selectedIndex', 0);
+	if(index == 1)
+		$(this).prop('selectedIndex', 1);
+	if(index == 2)
+		$(this).prop('selectedIndex', 2);
+	if(index == 3)
+		$(this).prop('selectedIndex', 3);
+	if(index == 4)
+		$(this).prop('selectedIndex', 4);
+	if(index == 5)
+		$(this).prop('selectedIndex', 5);
+	if(index == 6)
+		$(this).prop('selectedIndex', 6);
+});
