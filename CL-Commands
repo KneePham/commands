@@ -6,6 +6,8 @@ sudo chmod -R g+rwX /var/www
 
 sudo -i  //become root
 
+find . -name '.DS_Store' -type f -delete
+
 give group RWX
 sudo chmod g+rwxs mls/
 
