@@ -16,7 +16,7 @@ sudo chmod g+rwxs mls/
 
 grep --include=\*.php -rnw ./ -e "singleEventSlug"
 
-tar -zcv --exclude='.git' --exclude='.gitignore' -f ${name}.tar.gz ${directory}
+tar --exclude='.git' --exclude='.gitignore' -zcvf ${name}.tar.gz ${directory}
 tar -zcvf ${name}.tar.gz ${directory}
 tar -xzvf ${name} 
 
