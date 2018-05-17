@@ -1,3 +1,8 @@
+ssh-keygen -t rsa
+ssh-copy-id 
+brew install ssh-copy-id
+
+
 sudo useradd -m ${username} //add user with a directory
 usermod -aG sudo ${username} //add user with 
 sudo adduser <username> www-data
