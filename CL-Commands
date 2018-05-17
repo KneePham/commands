@@ -1,7 +1,7 @@
 ssh-keygen -t rsa
 ssh-copy-id 
 brew install ssh-copy-id
-
+https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html
 
 sudo useradd -m ${username} //add user with a directory
 usermod -aG sudo ${username} //add user with 
