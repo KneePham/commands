@@ -113,3 +113,6 @@ If you are using "www" in your domain address, please use this code instead:
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule .* https://www.yourdomain.com/%{REQUEST_URI} [R,L]
+
+find . -name "*.php" -exec grep "base64" '{}' \; -print &> b64-detections.txt
+find . -name "*.php" -exec grep "eval" '{}' \; -print &> eval-detections.txt
