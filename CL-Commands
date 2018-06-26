@@ -3,6 +3,9 @@ ssh-copy-id
 brew install ssh-copy-id
 https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html
 
+Tar each folder
+find . -type d -maxdepth 1 -mindepth 1 -exec tar cvf {}.tar {}  \;
+
 sudo useradd -m ${username} //add user with a directory
 usermod -aG sudo ${username} //add user with 
 sudo adduser <username> www-data
