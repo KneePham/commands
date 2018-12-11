@@ -20,6 +20,15 @@ sudo chmod -R g+rwX /var/www
 
 https://github.com/metafizzy/flickity
 
+---
+
+find . -type f -name '._*'
+After checking append -delete to remove the files:
+
+find . -type f -name '._*' -delete
+
+---
+
 HOST File for mac
 vim /private/etc/hosts
 
