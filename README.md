@@ -1,7 +1,7 @@
 ### Main
 
 Wordpress Development
-Front-end Work
+Mostly Front-End
 
 ### Concepts
 
@@ -24,4 +24,3 @@ Weather - openweathermap.com, Google Maps - https://cloud.google.com/maps-platfo
 ### Others
 
 Linux commands, Push & Pulling Code between servers.
-
