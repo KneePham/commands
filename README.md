@@ -1,6 +1,6 @@
 # Main
 
-Wordpress Development, Front-End & Website Ticket Support such as update content on websites or fixing bugs
+Wordpress Development, Front-End & Website Ticket Support such as updating copy or fixing bugs on existing websites.
 
 # Concepts
 
@@ -22,4 +22,4 @@ Weather - openweathermap.com, Google Maps - cloud.google.com/maps-platform/
 
 # Others
 
-Linux commands, Push & pulling code between servers, leverage & learn a wide range of existing JS Packages
+Linux commands, Push & pulling code between servers, leverage a wide range of existing JS libraries and Packages
