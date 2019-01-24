@@ -4,11 +4,11 @@ Wordpress Development, Front-End
 
 # Concepts
 
-Responsive Design, Wordpress CPT - Modules
+Responsive Design, Wordpress custom post types - Modules
 
 # Languages
 
-PHP, SASS, CSS, HTML
+PHP, SASS, JS, CSS, HTML
 
 # Web Tools & Applications
 
@@ -22,4 +22,4 @@ Weather - openweathermap.com, Google Maps - https://cloud.google.com/maps-platfo
 
 # Others
 
-Linux commands, Push & Pulling Code between servers.
+Linux commands, Push & pulling code between servers.
