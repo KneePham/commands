@@ -1,11 +1,13 @@
 ### Main
 
 Wordpress Development
+
 Mostly Front-End
 
 ### Concepts
 
 Responsive Design
+Wordpress CPT - Modules
 
 ### Languages
 
