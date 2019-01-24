@@ -18,7 +18,7 @@ Adobe Photoshop, Adobe XD
 
 # API Usage
 
-Weather - openweathermap.com, Google Maps - https://cloud.google.com/maps-platform/
+Weather - openweathermap.com, Google Maps - cloud.google.com/maps-platform/
 
 # Others
 
