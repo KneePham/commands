@@ -1,25 +1,25 @@
-### Main
+# Main
 
 Wordpress Development, Front-End
 
-### Concepts
+# Concepts
 
 Responsive Design, Wordpress CPT - Modules
 
-### Languages
+# Languages
 
 PHP, SASS, CSS, HTML
 
-### Web Tools & Applications
+# Web Tools & Applications
 
 Web Package - GULP, Software package - NPM, Version Control (GIT)
 
 Adobe Photoshop, Adobe XD
 
-### API Usage
+# API Usage
 
 Weather - openweathermap.com, Google Maps - https://cloud.google.com/maps-platform/
 
-### Others
+# Others
 
 Linux commands, Push & Pulling Code between servers.
