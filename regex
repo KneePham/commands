@@ -1,2 +1,0 @@
-Not End in a character
-.*[^\/]$ // find all line not ending in /
