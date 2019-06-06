@@ -108,6 +108,10 @@ Add the following line then start server then comment out.
 [mysqld]
 innodb_force_recovery = 1
 
+Reset Xcode css
+xcrun simctl erase all
+
+
 http://astronautweb.co/snippet/font-awesome/
 .element:before {
     content: "\f000";
