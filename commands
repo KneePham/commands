@@ -1,3 +1,6 @@
+git remote add origin git@bitbucket.org:USERNAME/PROJECTNAME.git
+git push -u origin master
+
 ssh-keygen -t rsa
 ssh-copy-id 
 brew install ssh-copy-id
